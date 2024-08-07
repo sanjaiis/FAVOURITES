@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAVOURITES</title>
+    <link rel="stylesheet" type=text/css href="./index.css">
+    <!-- ------google fonts----- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>FAVOURITES</h1>
+    </div>
+
+    <div class="container">
+        <div class="fav-container">
+            <h2>Entreprenour</h2>
+            <h5>sanjai</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur non laudantium nemo, rem magnam odio optio a eum blanditiis sequi totam reprehenderit dolorem fuga nulla illum illo inventore iusto magni.</p>
+            <button onclick="deleteitem(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form action="">
+            <input type="text" placeholder="Name of the youtuber" id="input-title">
+            <input type="text" placeholder="Favourite video" id="input-video">
+            <textarea name="" placeholder="Your perception about the video" id="description-input" cols="21" rows="0"></textarea>
+            <button id="add-detail">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="./index.js"></script>
+</body>
+</html>
